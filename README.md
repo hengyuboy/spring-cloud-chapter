@@ -1,8 +1,9 @@
 SpringCloud企业级核心技术，对应简书《Spring Cloud 核心技术》专题配套源码
 
+### 微信公众号在下方
+
 ## 学习目录推荐
 * SpringBoot配套源码地址：[访问码云查看源码](https://gitee.com/hengboy/spring-boot-chapter)、[访问GitHub查看源码](https://github.com/hengyuboy/spring-boot-chapter)
-* SpringCloud配套源码地址：[访问码云查看源码](https://gitee.com/hengboy/spring-cloud-chapter)
 * SpringBoot相关系列文章请访问：[目录：SpringBoot学习目录](http://www.jianshu.com/p/9a08417e4e84)
 * QueryDSL相关系列文章请访问：[QueryDSL通用查询框架学习目录](http://www.jianshu.com/p/99a5ec5c3bd5)
 * SpringDataJPA相关系列文章请访问：[目录：SpringDataJPA学习目录](http://www.jianshu.com/p/615ed9c1fe84)
