@@ -37,7 +37,7 @@ SpringCloud企业级核心技术，对应简书《Spring Cloud 核心技术》�
 |章节		| 文章名称（Eureka组件）|源码项目名称|
 |---|---|---|
 |01         | [初识SpringCloud微服务解决方案](https://www.jianshu.com/p/df223a42a2df)|-|
-|02         | SpringCloud组件：搭建Eureka服务注册中心|hengboy-spring-cloud-eureka|
+|02         | [SpringCloud组件：搭建Eureka服务注册中心](https://www.jianshu.com/p/91ab04f5c194)|hengboy-spring-cloud-eureka|
 |03         |SpringCloud组件：将微服务提供者注册到Eureka服务中心|hengboy-spring-cloud-eureka-provider|
 |04         |SpringCloud组件：Eureka的服务发现与消费|hengboy-spring-cloud-eureka-consumer|
 |05         |SpringCloud组件：Eureka高可用集群部署|hengboy-spring-cloud-eureka-high|
