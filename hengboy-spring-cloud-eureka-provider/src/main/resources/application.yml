@@ -1,0 +1,19 @@
+# 服务名称
+spring:
+  application:
+    name: hengboy-spring-cloud-eureka-provider
+
+# 服务提供者端口号
+server:
+  port: 20000
+
+# 配置Eureka Server 信息
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+  # 自定义Eureka实例编号
+  #instance:
+  #  instance-id: ${spring.application.name}:${server.port}:@project.version@
+  instance:
+    prefer-ip-address: true
