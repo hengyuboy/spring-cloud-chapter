@@ -12,8 +12,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:10000/eureka/
-  # 自定义Eureka实例编号
-  #instance:
-  #  instance-id: ${spring.application.name}:${server.port}:@project.version@
+  # 自定义实例编号
   instance:
-    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}:@project.version@
