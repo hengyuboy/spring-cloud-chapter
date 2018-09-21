@@ -36,11 +36,14 @@ SpringCloud企业级核心技术，对应简书《Spring Cloud 核心技术》�
 ### SpringCloud Eureka
 |章节		| 文章名称（Eureka组件）|源码项目名称|
 |---|---|---|
-|01         | [初识SpringCloud微服务解决方案](https://www.jianshu.com/p/df223a42a2df)|-|
-|02         | [SpringCloud组件：搭建Eureka服务注册中心](https://www.jianshu.com/p/91ab04f5c194)|hengboy-spring-cloud-eureka|
-|03         | [SpringCloud组件：将微服务提供者注册到Eureka服务中心](https://www.jianshu.com/p/8982f7df2ff7)|hengboy-spring-cloud-eureka-provider|
-|04         |SpringCloud组件：Eureka的服务发现与消费|hengboy-spring-cloud-eureka-consumer|
-|05         |SpringCloud组件：Eureka高可用集群部署|hengboy-spring-cloud-eureka-high|
+|1         | [初识SpringCloud微服务解决方案](https://www.jianshu.com/p/df223a42a2df)|-|
+|2         | [SpringCloud组件：搭建Eureka服务注册中心](https://www.jianshu.com/p/91ab04f5c194)|hengboy-spring-cloud-eureka|
+|3         | [SpringCloud组件：将微服务提供者注册到Eureka服务中心](https://www.jianshu.com/p/8982f7df2ff7)|hengboy-spring-cloud-eureka-provider|
+|4         |SpringCloud组件：Eureka服务注册是采用主机名还是IP地址？|hengboy-spring-cloud-eureka-register-away|
+|5         |SpringCloud组件：Eureka服务注册中心的失效剔除与自我保护机制|-|
+|6         |SpringCloud组件：Eureka服务注册中心的安全认证|hengboy-spring-cloud-eureka-security|
+|7         |SpringCloud组件：Eureka的服务发现与消费|hengboy-spring-cloud-eureka-consumer|
+|8         |SpringCloud组件：Eureka高可用集群部署|hengboy-spring-cloud-eureka-high|
 |-|待续....|-|
 
 ### SpringCloud Ribbon
