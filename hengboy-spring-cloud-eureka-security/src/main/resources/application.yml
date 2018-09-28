@@ -1,0 +1,21 @@
+# 系统名称
+spring:
+  application:
+    name: hengboy-spring-cloud-eureka-security
+  # 安全参数配置
+  security:
+    user:
+      name: api
+      password: node
+      roles: SERVICE_NODE
+# eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/
+    fetch-registry: false
+    register-with-eureka: false
+
+# 端口号
+server:
+  port: 10000
