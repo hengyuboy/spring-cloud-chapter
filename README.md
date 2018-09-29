@@ -42,7 +42,7 @@ SpringCloud企业级核心技术，对应简书《Spring Cloud 核心技术》�
 |4         |[SpringCloud组件：Eureka服务注册是采用主机名还是IP地址？](https://www.jianshu.com/p/1211ec70aefa)|hengboy-spring-cloud-eureka-register-away|
 |5         |[SpringCloud组件 & 源码剖析：Eureka服务注册方式流程全面分析](https://www.jianshu.com/p/665434ef0b9d)|-|
 |6         |SpringCloud组件：Eureka服务注册中心的失效剔除与自我保护机制|-|
-|7         |SpringCloud组件：Eureka服务注册中心的安全认证|hengboy-spring-cloud-eureka-security|
+|7         |[SpringCloud组件：你的Eureka服务注册中心安全吗？](https://www.jianshu.com/p/412837f22e95)|hengboy-spring-cloud-eureka-security|
 |8         |SpringCloud组件：Eureka的服务发现与消费|hengboy-spring-cloud-eureka-consumer|
 |9         |SpringCloud组件：Eureka高可用集群部署|hengboy-spring-cloud-eureka-high|
 |-|待续....|-|
