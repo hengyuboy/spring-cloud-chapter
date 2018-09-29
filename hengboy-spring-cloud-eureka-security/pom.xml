@@ -9,7 +9,10 @@
     <packaging>jar</packaging>
 
     <name>hengboy-spring-cloud-eureka-security</name>
-    <description>Demo project for Spring Boot</description>
+    <description>
+        SpringCloud组件：你的Eureka服务注册中心安全吗？
+        简书地址：https://www.jianshu.com/p/412837f22e95
+    </description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
