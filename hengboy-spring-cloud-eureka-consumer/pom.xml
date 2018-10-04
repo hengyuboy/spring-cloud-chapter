@@ -11,7 +11,7 @@
     <name>hengboy-spring-cloud-eureka-consumer</name>
     <description>
         SpringCloud组件：Eureka的服务发现与消费
-        简书地址：
+        文章地址：http://blog.yuqiyu.com/spring-cloud-eureka-consumer.html
     </description>
 
     <parent>
