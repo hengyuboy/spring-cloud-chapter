@@ -1,0 +1,15 @@
+# Eureka 客户端配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://node1:10001/eureka/
+    register-with-eureka: false
+  instance:
+    # 配置通过主机名方式注册
+    hostname: node2
+    # 配置实例编号
+    instance-id: ${spring.application.name}:${server.port}:@project.version@
+    prefer-ip-address: true
+
+server:
+  port: 10002
