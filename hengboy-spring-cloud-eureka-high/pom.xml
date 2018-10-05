@@ -5,7 +5,7 @@
 
     <groupId>com.yuqiyu.chapter</groupId>
     <artifactId>hengboy-spring-cloud-eureka-high</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>v1.0</version>
     <packaging>jar</packaging>
 
     <name>hengboy-spring-cloud-eureka-high</name>
