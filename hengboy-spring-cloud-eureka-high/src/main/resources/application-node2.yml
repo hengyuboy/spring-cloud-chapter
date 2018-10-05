@@ -9,7 +9,8 @@ eureka:
     hostname: node2
     # 配置实例编号
     instance-id: ${spring.application.name}:${server.port}:@project.version@
-    prefer-ip-address: true
-
+  # 集群节点之间读取超时时间。单位：毫秒
+  server:
+    peer-node-read-timeout-ms: 1000
 server:
   port: 10002
