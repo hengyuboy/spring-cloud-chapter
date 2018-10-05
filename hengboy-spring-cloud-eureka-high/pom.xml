@@ -11,7 +11,7 @@
     <name>hengboy-spring-cloud-eureka-high</name>
     <description>
         SpringCloud组件：Eureka高可用集群部署
-        文章地址：http://blog.yuqiyu.com/hengboy-spring-cloud-eureka-high.html
+        文章地址：http://blog.yuqiyu.com/spring-cloud-eureka-high.html
     </description>
 
     <parent>
