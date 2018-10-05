@@ -44,7 +44,7 @@ SpringCloud企业级核心技术，对应简书《Spring Cloud 核心技术》�
 |6         |SpringCloud组件：Eureka服务注册中心的失效剔除与自我保护机制|-|
 |7         |[SpringCloud组件：你的Eureka服务注册中心安全吗？](http://blog.yuqiyu.com/spring-cloud-eureka-security.html)|hengboy-spring-cloud-eureka-security|
 |8         |[SpringCloud组件：Eureka的服务发现与消费](http://blog.yuqiyu.com/spring-cloud-eureka-consumer.html)|hengboy-spring-cloud-eureka-consumer|
-|9         |SpringCloud组件：Eureka高可用集群部署|hengboy-spring-cloud-eureka-high|
+|9         |[SpringCloud组件：Eureka高可用集群部署](http://blog.yuqiyu.com/spring-cloud-eureka-high.html)|hengboy-spring-cloud-eureka-high|
 |-|待续....|-|
 
 ### SpringCloud Ribbon
