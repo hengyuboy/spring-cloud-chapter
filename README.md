@@ -41,10 +41,11 @@ SpringCloud企业级核心技术，对应简书《Spring Cloud 核心技术》�
 |3         | [SpringCloud组件：将微服务提供者注册到Eureka服务中心](http://blog.yuqiyu.com/spring-cloud-eureka-provider.html)|hengboy-spring-cloud-eureka-provider|
 |4         |[SpringCloud组件：Eureka服务注册是采用主机名还是IP地址？](http://blog.yuqiyu.com/spring-cloud-eureka-register-away.html)|hengboy-spring-cloud-eureka-register-away|
 |5         |[SpringCloud组件 & 源码剖析：Eureka服务注册方式流程全面分析](http://blog.yuqiyu.com/spring-cloud-eureka-register-away-code.html)|-|
-|6         |SpringCloud组件：Eureka服务注册中心的失效剔除与自我保护机制|-|
+|6         |[SpringCloud组件：Eureka服务注册中心的失效剔除与自我保护机制](http://blog.yuqiyu.com/spring-cloud-eureka-preservation.html)|-|
 |7         |[SpringCloud组件：你的Eureka服务注册中心安全吗？](http://blog.yuqiyu.com/spring-cloud-eureka-security.html)|hengboy-spring-cloud-eureka-security|
 |8         |[SpringCloud组件：Eureka的服务发现与消费](http://blog.yuqiyu.com/spring-cloud-eureka-consumer.html)|hengboy-spring-cloud-eureka-consumer|
 |9         |[SpringCloud组件：Eureka高可用集群部署](http://blog.yuqiyu.com/spring-cloud-eureka-high.html)|hengboy-spring-cloud-eureka-high|
+|10        |[SpringCloud组件：Eureka服务注册中心内置的REST节点列表](http://blog.yuqiyu.com/spring-cloud-eureka-rest.html)|-|
 |-|待续....|-|
 
 ### SpringCloud Ribbon
