@@ -1,0 +1,15 @@
+# Eureka 客户端配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://node1:10001/eureka/
+  instance:
+    # 配置通过主机名方式注册
+    hostname: node2
+    # 配置实例编号
+    instance-id: ${eureka.instance.hostname}:${server.port}:v1.0
+  # 集群节点之间读取超时时间。单位：毫秒
+  server:
+    peer-node-read-timeout-ms: 1000
+server:
+  port: 10002

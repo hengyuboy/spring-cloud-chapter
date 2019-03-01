@@ -1,0 +1,38 @@
+# 服务名称
+spring:
+  application:
+    name: hengboy-spring-cloud-eureka-provider
+
+# 服务提供者端口号
+server:
+  port: 20000
+
+# 配置Eureka Server 信息
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+  # 自定义实例编号
+  instance:
+    instance-id: ${spring.application.name}:${server.port}:@project.version@
+
+# 开启管理节点
+management:
+  server:
+    port: 20001
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      # 管理节点的web前缀，默认是/actuator
+      base-path: /
+      # 修改映射路径，可以修改指定管理节点的访问映射路径
+      path-mapping:
+        health: healthcheck
+  # 显示健康检查详细信息
+  endpoint:
+    health:
+      show-details: always
+    # 启用管理远程关机
+    shutdown:
+      enabled: true

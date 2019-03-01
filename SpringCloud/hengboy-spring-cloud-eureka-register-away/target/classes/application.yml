@@ -1,0 +1,23 @@
+# 服务名称
+spring:
+  application:
+    name: hengboy-spring-cloud-eureka-register-away
+
+# 服务提供者端口号
+server:
+  port: 20001
+
+# 配置Eureka Server 信息
+eureka:
+  client:
+    service-url:
+      defaultZone: http://api:node@node1:10000/eureka/,http://node2:10000/eureka/
+  # 自定义实例编号
+  instance:
+    instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${server.port}:v1.0
+    # 配置使用主机名注册服务
+    hostname: node1
+    # 优先使用IP地址方式进行注册服务
+    prefer-ip-address: true
+    # 配置使用指定IP
+    #ip-address: 127.0.0.1

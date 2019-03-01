@@ -1,0 +1,6 @@
+# Eureka Server 名称
+spring:
+  application:
+    name: hengboy-spring-cloud-eureka-high
+  profiles:
+    active: node1

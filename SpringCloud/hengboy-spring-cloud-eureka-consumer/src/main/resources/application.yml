@@ -1,0 +1,15 @@
+# 服务名称
+spring:
+  application:
+    name: hengboy-spring-cloud-eureka-consumer
+# 启动端口号
+server:
+  port: 20002
+# Eureka 服务注册中心配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+  # 配置优先使用IP地址注册服务
+  instance:
+    prefer-ip-address: true
