@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hengboy-spring-cloud-config-profile
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
