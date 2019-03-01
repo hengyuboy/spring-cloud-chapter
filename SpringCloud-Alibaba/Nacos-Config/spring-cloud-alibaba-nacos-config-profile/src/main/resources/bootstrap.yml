@@ -1,8 +1,11 @@
+# application name
 spring:
   application:
     name: hengboy-spring-cloud-config-profile
+  # profile
   profiles:
     active: dev
+  # nacos config
   cloud:
     nacos:
       config:
