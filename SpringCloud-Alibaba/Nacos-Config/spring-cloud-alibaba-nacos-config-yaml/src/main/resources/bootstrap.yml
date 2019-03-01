@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hengboy-spring-cloud
+  # nacos config
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        # 配置文件后缀名为yaml
+        file-extension: yaml
